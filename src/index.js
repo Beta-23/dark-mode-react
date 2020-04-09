@@ -36,7 +36,7 @@ function App() {
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <nav>
         <div className="toggle-container">
-          <span style={{ color: darkMode ? "grey" : "yellow" }}>☀︎</span>
+          <span role="img" aria-label="change-theme" style={{ color: darkMode ? "grey" : "yellow" }}>☀️</span>
           <span className="toggle">
             <input
               checked={darkMode}
